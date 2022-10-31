@@ -1,5 +1,50 @@
 {
-  "type"
+  "type": "Abyssmal:Layer1"
+  "generator": 
+  {
+    "biome_source": 
+    {
+      "seed": 0,
+      "type": "minecraft:multi_noise",
+      "biomes":[
+  
+  {
+"biome": "ice_spikes",
+ "parameters":
+  {
+    "altitude":
+    -0.8,
+  
+  }
+}
+],
+      "altitude_noise": 
+      {
+        "firstOctave": -7,
+        "amplitudes": [1.0,1.0]
+      }
+       "center_noise": 
+      {
+        "firstOctave": -7,
+        "amplitudes": [1.0,1.0]
+      }
+       "edge_noise": 
+            {
+              "firstOctave": -7,
+              "amplitudes": [1.0,1.0]
+            }
+       "chaos_noise": 
+            {
+              "firstOctave": -7,
+              "amplitudes": [1.0,1.0]
+            }
+      }
+    },
 
+
+    "seed": 0,
+    "settings": "minecraft:overworld",
+    "type": "minecraft:noise"
+  }
 
 }
