@@ -1,4 +1,4 @@
-package com.kale.Abyssmal
+package com.kale.Abyssmal.registry.blocks
 
 
 import net.minecraft.block.Block;
@@ -36,6 +36,10 @@ public TransBlock extends Block
     return BlockRenderLayer.SOLID;
   }
   
+  public onBlockDestroyedByPlayer()
+  {
+    
+  }
 
 
 
